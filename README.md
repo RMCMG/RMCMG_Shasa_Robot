@@ -33,7 +33,9 @@ For easiest way to deploy this Bot click on the below button
 
 ## Sᴜᴘᴘᴏʀᴛ
 
-<a href="https://t.me/RMCMG_Bots"> <img src="https://img.shields.io/badge/Join-Our-green" /> <img src="https://img.shields.io/badge/Support-Channel-critical" /> <img src="https://img.shields.io/badge/RMCMG_Bots-green" /> </a>
+<a href="https://t.me/RMCMG_Bots"> <img src="https://img.shields.io/badge/Join-Our-green" /> <img src="https://img.shields.io/badge/Support-Channel-critical" /> </a>
+<a href="https://t.me/RMCMG_Bots"><img src="https://img.shields.io/badge/RMCMG%20Bots%20-black?&style=flat-square?&logo=telegram" width=400px></a></p>
+
 
 ##
 
@@ -44,7 +46,8 @@ For easiest way to deploy this Bot click on the below button
 ##
 
 ## Find RMCMG_Shasa_Robot on Telegram
-<a href="https://t.me/RMCMG_Shasa_Robot"> <img src="https://img.shields.io/badge/Best-Bot-ff69b4" /> <img src="https://img.shields.io/badge/RMCMG%20Shasa%20Robot%20-blue" /> </a>
+<a href="https://t.me/RMCMG_Shasa_Robot"> <img src="https://img.shields.io/badge/Best-Bot-ff69b4" /> </a>
+<a href="https://t.me/RMCMG_Shasa_Robot"><img src="https://img.shields.io/badge/RMCMG%20Shasa%20Robot%20-black?&style=flat-square?&logo=telegram" width=500px></a></p>
 
 ##
 
