@@ -1,6 +1,6 @@
 ##
 
-<h1 align=center>RMCMG_Shasa_Robot</h1>
+<h1 align=center>RMCMG Shasa Bot</h1>
 
 [![Deploy](https://telegra.ph/file/2832417c46e5e242ab548.jpg)](https://heroku.com/deploy?template=https://github.com/QueenArzoo/LaylaRobot.git)
 
