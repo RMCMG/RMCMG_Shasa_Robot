@@ -74,19 +74,19 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow` [🤗](https://telegra.ph/file/c4b69de63b6525efad6dd.jpg) `My name is` *Shasa*
+`Hellow` [🤗](https://telegra.ph/file/2832417c46e5e242ab548.jpg) `My name is` *RMCMG Shasa Robot*
 `I'm here to help you manage your groups! Hit` *📚Commands*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ Add Shasa To Your Group ➕️", url="t.me/MissShasa_bot?startgroup=true"),
+            text="➕️ Add Me To Your Group ➕️", url="t.me/RMCMG_Shasa_Robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="About", callback_data="shasa_"),
         InlineKeyboardButton(
-            text="Support", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="Support", url=f"https://t.me/RMCMG_Bots"
         ),
     ],
     [
@@ -96,14 +96,14 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [Shasa🙋‍♀️](https://telegra.ph/file/c4b69de63b6525efad6dd.jpg)
+`Hi.. I'm` [RMCMG Shasa Robot🙋‍♀️](https://telegra.ph/file/2832417c46e5e242ab548.jpg)
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
-shasa_IMG = "https://telegra.ph/file/c4b69de63b6525efad6dd.jpg"
+shasa_IMG = "https://telegra.ph/file/2832417c46e5e242ab548.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @SimpleBoy786 \
+ You can support the project via [Paypal](t.me/RMCMG_Bots) or by contacting @mkspali \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -350,7 +350,7 @@ def shasa_about_callback(update, context):
     query = update.callback_query
     if query.data == "shasa_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Shasa*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *RMCMG Shasa Robot*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -358,7 +358,7 @@ def shasa_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_shasa's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/MdNoor786/ShasaBot).
+                 \nHere is the [Creator](https://t.me/mkspali).
                  \n\nIf you have any question about shasa, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -385,8 +385,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *shasa*
-                 \nHere is the [Source Code](https://github.com/MdNoor786/ShasaBot) .""",
+            text=""" Hi..🤗 I'm *RMCMG Shasa Robot*
+                 \nHere is the [Owner](https://t.me/mkspali) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -633,7 +633,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 412094015 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
