@@ -2,7 +2,7 @@
 
 <h1 align=center>RMCMG Shasa Bot</h1>
 
-[![Deploy](https://telegra.ph/file/2832417c46e5e242ab548.jpg)](https://heroku.com/deploy?template=https://github.com/QueenArzoo/LaylaRobot.git)
+[![Deploy](https://telegra.ph/file/317d6d9511f780a12c471.png)](https://heroku.com/deploy?template=https://github.com/RMCMG/RMCMG_Shasa_Robot.git)
 
 ##
 
